@@ -1,0 +1,16 @@
+.button {
+  display: inline-block; /* Ensures the hover effect only surrounds the button */
+  padding: 10px; /* Add padding for better visibility of the hover effect */
+  transition: background-color 0.3s; /* Smooth transition for the background color change */
+
+  /* Initial styling */
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #f00; /* Change to your desired hover color */
+  color: #fff; /* Change to your desired text color on hover */
+}

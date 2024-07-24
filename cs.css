@@ -1,0 +1,44 @@
+/* Define a class for the main section */
+.main-section {
+  /* Set the display to flex */
+  display: flex;
+  /* Set the direction of the flex items to horizontal */
+  flex-direction: row;
+  /* Align the flex items to the center */
+  align-items: center;
+  /* Add space between the flex items */
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.first-bento-box {
+  order: 1;
+  padding: 20 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+  background-color: purple;
+}
+
+/* Define a class for the second bento box */
+.second-bento-box {
+  /* Set the order to 2 */
+  order: 2;
+  /* Set the flex grow to 1 */
+  flex-grow: 1;
+  /* Set the flex basis to 0 */
+  flex-basis: 1;
+  background-color: red;
+  padding-: 0 30px;
+  margin: 15px;
+}
+
+/* Define a class for the third bento box */
+.third-bento-box {
+  /* Set the order to 3 */
+  order: 3;
+  /* Set the flex grow to 1 */
+  flex-grow: 1;
+  /* Set the flex basis to 0 */
+  flex-basis: 0;
+  background-color: pink;
+}
